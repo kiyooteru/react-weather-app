@@ -1,0 +1,50 @@
+.weatherAppWrapper {
+  max-width: 600px;
+  margin: 30px auto;
+}
+.weatherApp {
+  margin-bottom: 5px;
+  padding: 20px;
+  border: 1px solid #dadde1;
+  border-radius: 15px;
+}
+.searchInput {
+  border: 1px solid #dadde1;
+  border-radius: 5px;
+  width: 370px;
+}
+h1 {
+  color: #70757a;
+  margin-bottom: 0px;
+}
+hr {
+  margin: 5px 0px 5px 0px;
+}
+ul {
+  list-style: none;
+  padding: 0px;
+  color: #b0b0b2;
+  font-size: 16px;
+}
+
+img {
+  width: 100px;
+}
+.temperature {
+  position: relative;
+  font-size: 62px;
+  line-height: 1;
+  top: 16px;
+}
+.units {
+  position: relative;
+  top: -15px;
+}
+p {
+  position: relative;
+  color: #70757a;
+  left: 50px;
+}
+p:first-letter {
+  text-transform: capitalize;
+}

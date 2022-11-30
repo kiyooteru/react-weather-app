@@ -4,17 +4,14 @@ import "./index.css";
 import App from "./App";
 import reportWebVitals from "./reportWebVitals";
 import SearchEngine from "./SearchEngine";
-import Footer from "./Footer";
+
 import "bootstrap/dist/css/bootstrap.min.css";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <React.StrictMode>
-    <div className="appWrapper">
-      <App />
-      <SearchEngine />
-    </div>
-    <Footer />
+    <App />
+    <SearchEngine />
   </React.StrictMode>
 );
 
